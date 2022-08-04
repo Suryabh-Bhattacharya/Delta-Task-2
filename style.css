@@ -1,6 +1,6 @@
 canvas {
     margin-top:-5px;
-    margin-left:250px;
+    margin-left:150px;
     border:5px solid darkgreen;
     background-color: darkgray;
 }
@@ -34,4 +34,11 @@ canvas {
     width:150px;
     height:90px;
     background-color:greenyellow;
+}
+
+@media only screen and (min-width: 368px) {
+    canvas {
+        height: 50%;
+        width: 50%;
+    }
 }
